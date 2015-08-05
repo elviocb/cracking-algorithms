@@ -28,7 +28,7 @@ function oneAway(str1, str2){
       for (var i = 0, j = 0; i < s1.length; i++, j++) {
           // compare the elements
           if(s1[i] != s2[j]) {
-              // add by one the biggest string and add +1 to changes;
+              // add by one the biggest string changes variable;
               j++, changes++;
               // check if the difference is on the maximum limit of one;
               if (changes > 1) return false;
@@ -39,7 +39,6 @@ function oneAway(str1, str2){
 }
 
 function checkReplacement(str1,str2){
-    console.log('replacement!');
     var changed = false;
     for (var i = 0; i < str1.length; i++){
         if (str1[i] != str2[i]) {
