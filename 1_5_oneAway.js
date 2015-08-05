@@ -12,6 +12,6 @@
   force  fark  --> false
 */
 
-function oneAway(){
-  
+function oneAway(str1, str2){
+
 }
